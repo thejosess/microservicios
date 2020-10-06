@@ -54,21 +54,6 @@ A lo largo de este apartado se hablará de los principios, técnicas, reglas y t
 
 El diseño de una aplicación basada en microservicios, no es una tarea fácil y aunque ha ganado mucha popularidad hay que analizar bien si este diseño es el más conveniente para nuestro caso, si necesitamos una gran modularidad, desarrollo independiente gracias a los servicios o una gran diversidad tecnológica, los microservicios pueden ser nuestra solución.Los microservicios son un tipo de diseño flexible, si nuestra visión tiene muchas restricciones quizás no es una elección.En el caso de que nuestra aplicación tenga una gran complejidad, realizarla sobre un diseño basado en servicios o monolítico, provocaría un gran esfuerzo en mantenimiento y poca escalabilidad. En este caso un acercamiento a los microservicios podría funcionar. Casos como The Guardian \[5\] que aún manteniendo su núcleo monolítico, hace uso de los microservicios para nuevas funcionalidad y comunicación o Netflix. Sin embargo, habría que lidiar con las desventajas de los microservicios y si no somos capaces de por ejemplo asumir una tolerancia a los fallos, no es recomendable hacer uso de microservicios. Una de las formas de llevar a cabo esta decisión consiste en hacer una encuesta al equipo sobre algunos aspecto y requisitos no funcionales (requisitos de calidad) y en función de la importancia numérica que le den, decidir si los microservicios son la mejor opción para satisfacerlos o se adaptan bien a estos \[7\].
 
-||
-||
-||
-||
-||
-||
-||
-||
-||
-||
-||
-||
-||
-||
-
 Tras realizar esta encuesta e identificar los posibles problemas para su diseño, se obtiene un tercer informe sobre los beneficios que trae este diseño a nuestro objetivo y se decide su uso. Estos pueden ser:
 
 Mejorar del matenimiento, mejora de la escalabilidad, reducción de la complejidad de la arquitectura, simplificación del trabajo distribuido, mejora del rendimiento, testeabilidad y separación de responsabilidades, responsabilidad claras y únicas.
